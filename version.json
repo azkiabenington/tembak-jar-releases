@@ -1,9 +1,9 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "release_date": "2026-11-06",
   "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
   "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-  "sha256": "",
-  "changelog": "Versi 1.4.3:\n- Fix hang/loop 'Download sound fail, retrying...' di Backoffice akibat format audio custom sound\n- Bytecode patch SelectLocationPresenter untuk bypass UnsupportedAudioFileException\n- Template audio custom sound otomatis menggunakan format PCM RIFF WAV standar (bebas freeze)",
+  "sha256": "d99972b53cbdbcce28862cba6c5958a00a9977d746ee48a9ae88e00250430c79",
+  "changelog": "Versi 1.4.4:\n- Fix JVM VerifyError pada SelectLocationPresenter lambda (Java 15 strict stack map verification)\n- Bypass AudioSystem UnsupportedAudioFileException secara clean & instan 0ms\n- Booting ke 01-BACKOFFICE langsung lancar tanpa freeze atau loop retry",
   "mandatory": false
 }
