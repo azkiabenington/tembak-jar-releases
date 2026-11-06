@@ -1,9 +1,9 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   "release_date": "2026-11-06",
   "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
   "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
   "sha256": "",
-  "changelog": "Versi 1.4.2:\n- Auto-recovery file JAR (.part to .jar) saat proses unduh/rename terinterupsi\n- Penanganan retry file lock Windows pada proses sinkronisasi JAR\n- Proteksi pra-eksekusi Java: validasi ketat integritas JAR sebelum proses diluncurkan",
+  "changelog": "Versi 1.4.3:\n- Fix hang/loop 'Download sound fail, retrying...' di Backoffice akibat format audio custom sound\n- Bytecode patch SelectLocationPresenter untuk bypass UnsupportedAudioFileException\n- Template audio custom sound otomatis menggunakan format PCM RIFF WAV standar (bebas freeze)",
   "mandatory": false
 }
