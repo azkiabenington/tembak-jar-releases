@@ -1,9 +1,9 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "release_date": "2026-11-06",
   "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
   "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
   "sha256": "",
-  "changelog": "Versi 1.4.1:\n- Tombol Stop menghentikan seluruh proses, unduhan (SCP), dan konfigurasi secara instan\n- Pencegahan perubahan server.properties saat operasi dibatalkan\n- Bytecode patch ServerConfig getWboEnforced",
+  "changelog": "Versi 1.4.2:\n- Auto-recovery file JAR (.part to .jar) saat proses unduh/rename terinterupsi\n- Penanganan retry file lock Windows pada proses sinkronisasi JAR\n- Proteksi pra-eksekusi Java: validasi ketat integritas JAR sebelum proses diluncurkan",
   "mandatory": false
 }
