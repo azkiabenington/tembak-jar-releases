@@ -1,9 +1,9 @@
 {
-  "version": "1.4.4",
-  "release_date": "2026-11-06",
-  "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-  "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-  "sha256": "90c8192ed781a53efd460ce76a92f64a94f0334a2777f25bf392b5a07a8e9faa",
-  "changelog": "Versi 1.4.4:\n- Sinkronisasi versi remote JAR otomatis (fix issue lokasi 100 memakai v8.133.0 alih-alih cache lama)\n- Fix stderr pipe deadlock pada tsh scp sehingga unduhan remote JAR selalu lancar\n- Bytecode patch SelectLocationPresenter bersih (bebas VerifyError & sound freeze)",
-  "mandatory": false
+    "version": "1.4.5",
+    "release_date": "2026-11-06",
+    "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
+    "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
+    "sha256": "4a3fab773e49d5ece9fd447b858016477abd032982ef08917c608ae99086de7f",
+    "changelog": "Versi 1.4.5:\n- Fix login NoSuchMethodError di lokasi dengan versi agent berbeda (v8.133.0 / v8.136.3)\n- Hapus penimpaan SelectLocationPresenter agar constructor selalu cocok dengan controller asli\n- Pembersihan otomatis patch class kadaluarsa dari payload dan direktori patches",
+    "mandatory": false
 }
