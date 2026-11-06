@@ -1,0 +1,9 @@
+{
+  "version": "1.4.0",
+  "release_date": "2026-11-06",
+  "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
+  "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
+  "sha256": "",
+  "changelog": "Versi 1.4.0 (Live OTA Test):\n- Fitur OTA Auto-Update terverifikasi live dari GitHub\n- Pengecekan patch ringan (~220 KB)\n- Atomic swap in-place restart berhasil",
+  "mandatory": false
+}
