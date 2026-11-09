@@ -1,9 +1,9 @@
 {
-    "version": "1.4.6",
-    "release_date": "2026-11-07",
+    "version": "1.4.8",
+    "release_date": "2026-11-09",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-    "sha256": "7e3dda85160041ffe6cd510a444ca9fa192b803386794e4fbc03001550088de8",
-    "changelog": "Versi 1.4.6:\n- Integrasi Java Sound MP3 SPI Engine (mp3spi, tritonus-share, jlayer) via -Xbootclasspath dan MANIFEST.MF Class-Path untuk menghilangkan UnsupportedAudioFileException pada custom sound MP3\n- Fix modal 01-BACKOFFICE macet/putih akibat perulangan Download sound fail, retrying...\n- Perbaikan pembatalan tombol Stop (membatalkan download, update konfigurasi, dan proses Java seketika)\n- Auto-overwrite file audio korup/dummy (panjang 4577 atau 0 byte)",
+    "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
+    "sha256": "4d13f086704c55e30a698e2ed08ad62a9a05c862804859112e7b2feacb5bb5e1",
+    "changelog": "Versi 1.4.8:\n- Perbaikan permanen UnsupportedAudioFileException (Download sound fail, retrying...) dengan validasi & injeksi header RIFF WAVE PCM otomatis pada CustomSoundService.class dan Tembak_JAR.exe\n- Sinkronisasi UnitMembershipService.class (Fast-Path) & OSType/OSCheck Windows ke universal-parkee-reader-*.jar\n- Auto-repair seluruh file audio korup/non-RIFF di sound/custom, app/sound/custom, dan C:\\sound\\custom",
     "mandatory": false
 }
