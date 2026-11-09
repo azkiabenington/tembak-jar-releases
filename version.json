@@ -1,9 +1,9 @@
 {
-    "version": "1.4.8",
+    "version": "1.4.9",
     "release_date": "2026-11-09",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "sha256": "4d13f086704c55e30a698e2ed08ad62a9a05c862804859112e7b2feacb5bb5e1",
-    "changelog": "Versi 1.4.8:\n- Perbaikan permanen UnsupportedAudioFileException (Download sound fail, retrying...) dengan validasi & injeksi header RIFF WAVE PCM otomatis pada CustomSoundService.class dan Tembak_JAR.exe\n- Sinkronisasi UnitMembershipService.class (Fast-Path) & OSType/OSCheck Windows ke universal-parkee-reader-*.jar\n- Auto-repair seluruh file audio korup/non-RIFF di sound/custom, app/sound/custom, dan C:\\sound\\custom",
+    "sha256": "f266110671019937c4857745e78521a7d042350e3a7a19b643be5f25146fd4ee",
+    "changelog": "Versi 1.4.9:\n- Perbaikan NoClassDefFoundError: app/parkee/util/VehicleTypeUiHelper saat membuka Filter (REPORT_PARKING_SLIP_FILTER) di semua laptop\n- Embed Parkee.patches.zip (27 patch terverifikasi) langsung ke dalam Tembak_JAR.exe agar update OTA di laptop lain otomatis membersihkan patch lama (payload.zip) dan menyuntikkan VehicleTypeUiHelper, ParkingSlipTypeUiHelper, MaxCalculationTypeUiHelper, CustomSoundService, UnitMembershipService, dan OSType/OSCheck",
     "mandatory": false
 }
