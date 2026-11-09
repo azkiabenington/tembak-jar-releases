@@ -1,9 +1,9 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "release_date": "2026-11-09",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "sha256": "8909078ce7e663df9d7e2972f6d73a2bfeec3d464cbc1b10a9b60dfc581e5d80",
-    "changelog": "Versi 1.5.0:\n- Mode Read-Only DeviceConfig (AppModule_ProvideDeviceConfigFactory): langsung membaca device.properties lokal tanpa memanggil FishermanAPI.saveOrUpdateDeviceProperties sehingga laptop tidak ter-insert ke tabel Location Device Properties di database lokasi\n- Kompatibilitas lintas versi penuh (teruji dari v8.49.0 s/d v8.136.3) dengan multi-overload constructor & fallback ConfigFactory\n- Embed Parkee.patches.zip (28 patch terverifikasi) langsung di dalam Tembak_JAR.exe",
+    "sha256": "596761e3c745c2ca1198ec9d000ca2b7e977c6032a8e61fc03643c310032abbb",
+    "changelog": "Versi 1.5.1:\n- Fix Fatal UI Freeze / Not Responding (\"OpenJDK Platform binary is not responding\") saat mengklik tombol 'Buat Lokasi Gerbang Baru +' (Location Gate Form / LOCATION_GATE_FORM)\n- Root cause: Infinite layout recursion loop pada JavaFX GridPane (gridPaneTextAreaCustomMessage) akibat conflicting percentWidth unconstrained column pada 16 TextArea custom message saat animasi pembukaan JFXDrawer\n- Solusi: Otomatis menyeimbangkan columnConstraints (40% : 60%) secara dinamis dan via patch FXML\n- Mode Read-Only DeviceConfig & Embed Parkee.patches.zip terverifikasi penuh",
     "mandatory": false
 }
