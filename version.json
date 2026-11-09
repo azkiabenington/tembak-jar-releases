@@ -1,9 +1,9 @@
 {
-    "version": "1.4.9",
+    "version": "1.5.0",
     "release_date": "2026-11-09",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "sha256": "f266110671019937c4857745e78521a7d042350e3a7a19b643be5f25146fd4ee",
-    "changelog": "Versi 1.4.9:\n- Perbaikan NoClassDefFoundError: app/parkee/util/VehicleTypeUiHelper saat membuka Filter (REPORT_PARKING_SLIP_FILTER) di semua laptop\n- Embed Parkee.patches.zip (27 patch terverifikasi) langsung ke dalam Tembak_JAR.exe agar update OTA di laptop lain otomatis membersihkan patch lama (payload.zip) dan menyuntikkan VehicleTypeUiHelper, ParkingSlipTypeUiHelper, MaxCalculationTypeUiHelper, CustomSoundService, UnitMembershipService, dan OSType/OSCheck",
+    "sha256": "8909078ce7e663df9d7e2972f6d73a2bfeec3d464cbc1b10a9b60dfc581e5d80",
+    "changelog": "Versi 1.5.0:\n- Mode Read-Only DeviceConfig (AppModule_ProvideDeviceConfigFactory): langsung membaca device.properties lokal tanpa memanggil FishermanAPI.saveOrUpdateDeviceProperties sehingga laptop tidak ter-insert ke tabel Location Device Properties di database lokasi\n- Kompatibilitas lintas versi penuh (teruji dari v8.49.0 s/d v8.136.3) dengan multi-overload constructor & fallback ConfigFactory\n- Embed Parkee.patches.zip (28 patch terverifikasi) langsung di dalam Tembak_JAR.exe",
     "mandatory": false
 }
