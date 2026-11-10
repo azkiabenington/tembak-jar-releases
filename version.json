@@ -3,7 +3,7 @@
     "release_date": "2026-11-10",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-    "sha256": "ad9e16c8473bfa00b3756b27b8beeb84f5899e11d04fbf8aed105a294981b9fd",
+    "sha256": "e4ce43d8249e5d570b37ea137b5569d4fa5593851cac520e2f8092932d2a268c",
     "changelog": "Versi 1.5.2:\n- Penambahan tombol Reopen Agent (warna kuning/amber) di bawah tombol Stop\n- Fitur instan restart: Menghentikan proses agent berjalan dan langsung membuka ulang JAR lokal tanpa unduh ulang dari Teleport server\n- Optimalisasi tata letak antarmuka aksi utama (Tembak, Stop, Reopen) dan pencegahan race condition proses",
     "mandatory": false
 }
