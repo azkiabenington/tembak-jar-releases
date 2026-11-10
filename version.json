@@ -1,9 +1,9 @@
 {
-    "version": "1.5.1",
-    "release_date": "2026-11-09",
+    "version": "1.5.2",
+    "release_date": "2026-11-10",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
-    "sha256": "596761e3c745c2ca1198ec9d000ca2b7e977c6032a8e61fc03643c310032abbb",
-    "changelog": "Versi 1.5.1:\n- Fix Fatal UI Freeze / Not Responding (\"OpenJDK Platform binary is not responding\") saat mengklik tombol 'Buat Lokasi Gerbang Baru +' (Location Gate Form / LOCATION_GATE_FORM)\n- Root cause: Infinite layout recursion loop pada JavaFX GridPane (gridPaneTextAreaCustomMessage) akibat conflicting percentWidth unconstrained column pada 16 TextArea custom message saat animasi pembukaan JFXDrawer\n- Solusi: Otomatis menyeimbangkan columnConstraints (40% : 60%) secara dinamis dan via patch FXML\n- Mode Read-Only DeviceConfig & Embed Parkee.patches.zip terverifikasi penuh",
+    "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
+    "sha256": "ad9e16c8473bfa00b3756b27b8beeb84f5899e11d04fbf8aed105a294981b9fd",
+    "changelog": "Versi 1.5.2:\n- Penambahan tombol Reopen Agent (warna kuning/amber) di bawah tombol Stop\n- Fitur instan restart: Menghentikan proses agent berjalan dan langsung membuka ulang JAR lokal tanpa unduh ulang dari Teleport server\n- Optimalisasi tata letak antarmuka aksi utama (Tembak, Stop, Reopen) dan pencegahan race condition proses",
     "mandatory": false
 }
