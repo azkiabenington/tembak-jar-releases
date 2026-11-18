@@ -1,9 +1,9 @@
 {
-    "version": "1.5.2",
-    "release_date": "2026-11-10",
+    "version": "1.5.3",
+    "release_date": "2026-11-18",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-    "sha256": "17afa2aeebd462bc6c4f570d62272acbc7ad8b48e5d88655e8599e3f6d6f00e8",
-    "changelog": "Versi 1.5.2:\n- Penambahan tombol Reopen Agent (warna kuning/amber) di bawah tombol Stop\n- Fitur instan restart: Menghentikan proses agent berjalan dan langsung membuka ulang JAR lokal tanpa unduh ulang dari Teleport server\n- Optimalisasi tata letak antarmuka aksi utama (Tembak, Stop, Reopen) dan pencegahan race condition proses",
+    "sha256": "e629721aa3d2663573c2e952fdc2c0c6163de91dbd6d1f7594b3275d50cab36b",
+    "changelog": "Versi 1.5.3:\n- Fix FileNotFoundException / IIOException saat menyimpan logo di Location Information, Parking Provider, Location Setting, dan Coupon di Windows\n- Penambahan runtime Java Agent kompatibel lintas versi (parkee-win-compat-agent.jar) yang otomatis membuat subfolder induk sebelum ImageIO.write dan ImageIO.createImageOutputStream\n- Auto-create subfolder imagesDirectory\\location, imagesDirectory\\PP, dan imagesDirectory\\coupon di EnsureWindowsPatches",
     "mandatory": false
 }
