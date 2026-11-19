@@ -1,9 +1,9 @@
 {
-    "version": "1.5.3",
-    "release_date": "2026-11-18",
+    "version": "1.5.4",
+    "release_date": "2026-11-19",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-    "sha256": "e629721aa3d2663573c2e952fdc2c0c6163de91dbd6d1f7594b3275d50cab36b",
-    "changelog": "Versi 1.5.3:\n- Fix FileNotFoundException / IIOException saat menyimpan logo di Location Information, Parking Provider, Location Setting, dan Coupon di Windows\n- Penambahan runtime Java Agent kompatibel lintas versi (parkee-win-compat-agent.jar) yang otomatis membuat subfolder induk sebelum ImageIO.write dan ImageIO.createImageOutputStream\n- Auto-create subfolder imagesDirectory\\location, imagesDirectory\\PP, dan imagesDirectory\\coupon di EnsureWindowsPatches",
+    "sha256": "a204f38e713b3a4466b0ee724c282ba35d2b6bdaeae1c3eb6f39d44acdb3886e",
+    "changelog": "Versi 1.5.4:\n- OTA Auto-Update otomatis tanpa pop-up konfirmasi Ya/Tidak maupun dialog restart yang menghalangi\n- Redesign UI panel kanan dengan progress bar persentase real-time (ModernProgressBar) untuk unduhan JAR, dependensi JAR, dan auto-update OTA\n- Menghapus spam persentase unduhan JAR dari Log Aktivitas sehingga log tetap bersih dan mudah dibaca",
     "mandatory": false
 }
