@@ -1,9 +1,9 @@
 {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "release_date": "2026-11-19",
     "download_url": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Patch.exe",
     "download_url_sync": "https://raw.githubusercontent.com/azkiabenington/tembak-jar-releases/main/Tembak_JAR_Sync_Patch.exe",
-    "sha256": "a204f38e713b3a4466b0ee724c282ba35d2b6bdaeae1c3eb6f39d44acdb3886e",
-    "changelog": "Versi 1.5.4:\n- OTA Auto-Update otomatis tanpa pop-up konfirmasi Ya/Tidak maupun dialog restart yang menghalangi\n- Redesign UI panel kanan dengan progress bar persentase real-time (ModernProgressBar) untuk unduhan JAR, dependensi JAR, dan auto-update OTA\n- Menghapus spam persentase unduhan JAR dari Log Aktivitas sehingga log tetap bersih dan mudah dibaca",
+    "sha256": "5590c88edb187f23537ce1057141e749a7166df301da92f7e1a850ac9806bdbc",
+    "changelog": "Versi 1.5.5:\n- Fix tinggi dropdown Pilih Lokasi yang melebar penuh dari atas ke bawah layar pada Windows Visual Styles (ComCtl32 v6)\n- Menetapkan IntegralHeight = false, MaxDropDownItems = 9, DropDownHeight = 256, DropDownWidth = 390, CB_SETMINVISIBLE, serta dynamic Win32 SetWindowPos clamp saat mengetik/membuka dropdown",
     "mandatory": false
 }
